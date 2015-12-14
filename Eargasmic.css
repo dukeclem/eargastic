@@ -4,7 +4,6 @@ body {
   background: #485563;  /*fallback for old browsers */
   background: -webkit-linear-gradient(to left, #485563 , #29323c); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #485563 , #29323c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
 }
 
 .jumbotron {
@@ -30,6 +29,13 @@ body {
   color: #e67e22;
 }
 
+.back {
+  font-family: tahoma;
+  color: #7f8c8d;
+  border-left: 15px solid  #e67e22;
+  border-bottom: 35px solid  #e67e22;
+}
+
 
 /* entire container, keeps perspective */
 .flip-container{
@@ -51,7 +57,7 @@ body {
 }
 
 .flip-container, .front, .back{
-width: 356px;
+width: 355px;
 height:354px;
 }
 /* flip speed goes here */
