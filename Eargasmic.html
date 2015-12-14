@@ -2,129 +2,254 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Eargasmic Gallery</title>
+  <title>Eargasmic Tunes</title>
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
  <link rel="stylesheet" type="text/css" href="Eargasmic.css">
+ <script src="gasmic.js"></script>
 </head>
 
 <body>
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="#" class="navbar-brand"><i class="fa fa-headphones"></i></span> EargasmiC</a>
+    
+  <div id="content">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand"><i class="fa fa-headphones"></i></span> EargasmiC</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>  
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="container">
+        <div class="jumbotron">
+          <div class="container text-center">
+            <h1><i class="fa fa-headphones fa-3x"></i> EargasmiC Tunes</h1>
+            <h2>A curated selection of recordings spanning different genres.</h2>
+          </div>
+        </div><!--End of Jumbotron-->
+        
+        <div class="row">
+            <div class= "col-lg-4 col-sm-6"> 
+                <div class="flip-container">
+    	           <div class="flipper" onclick="this.classList.toggle('flipped')">
+    		         <div class="front">
+    			        <div class="thumbnail">
+                          <img src="egastic/fugees.jpeg">
+                        </div> 
+    	           	 </div>
+    	             <div class="back">
+    			        <div class="thumbnail">
+                          <p>CSS Transitions, Transforms & Animations – Flipping Card ..</p>
+                        </div>         
+        	    	 </div>
+            	   </div>
+                </div>
+            </div>  
+            <div class= "col-lg-4 col-sm-6"> 
+                <div class="flip-container">
+    	           <div class="flipper" onclick="this.classList.toggle('flipped')">
+    		         <div class="front">
+    			        <div class="thumbnail">
+                          <img src="egastic/damien-rice.jpg">
+                        </div> 
+    	           	 </div>
+    	             <div class="back">
+    			        <div class="thumbnail">
+                          <p>CSS Transitions, Transforms & Animations – Flipping Card ..</p>
+                        </div>         
+        	    	 </div>
+            	   </div>
+                </div>
+            </div>  
+            <div class= "col-lg-4 col-sm-6"> 
+                <div class="flip-container">
+    	           <div class="flipper" onclick="this.classList.toggle('flipped')">
+    		         <div class="front">
+    			        <div class="thumbnail">
+                          <img src="egastic/marvin.jpg">
+                        </div> 
+    	           	 </div>
+    	             <div class="back">
+    			        <div class="thumbnail">
+                          <p>CSS Transitions, Transforms & Animations – Flipping Card ..</p>
+                        </div>         
+        	    	 </div>
+            	   </div>
+                </div>
+            </div>
+            </div><!--End of first row-->
+            
+            <div class="row">
+            <div class= "col-lg-4 col-sm-6"> 
+                <div class="flip-container">
+    	           <div class="flipper" onclick="this.classList.toggle('flipped')">
+    		         <div class="front">
+    			        <div class="thumbnail">
+                          <img src="egastic/cool-j.jpeg">
+                        </div> 
+    	           	 </div>
+    	             <div class="back">
+    			        <div class="thumbnail">
+                          <p>CSS Transitions, Transforms & Animations – Flipping Card ..</p>
+                        </div>         
+        	    	 </div>
+            	   </div>
+                </div>
+            </div>  
+            <div class= "col-lg-4 col-sm-6"> 
+                <div class="flip-container">
+    	           <div class="flipper" onclick="this.classList.toggle('flipped')">
+    		         <div class="front">
+    			        <div class="thumbnail">
+                          <img src="egastic/kanye.jpg">
+                        </div> 
+    	           	 </div>
+    	             <div class="back">
+    			        <div class="thumbnail">
+                          <p>CSS Transitions, Transforms & Animations – Flipping Card ..</p>
+                        </div>         
+        	    	 </div>
+            	   </div>
+                </div>
+            </div>  
+            <div class= "col-lg-4 col-sm-6"> 
+                <div class="flip-container">
+    	           <div class="flipper" onclick="this.classList.toggle('flipped')">
+    		         <div class="front">
+    			        <div class="thumbnail">
+                          <img src="egastic/bob.jpg">
+                        </div> 
+    	           	 </div>
+    	             <div class="back">
+    			        <div class="thumbnail">
+                          <p>CSS Transitions, Transforms & Animations – Flipping Card ..</p>
+                        </div>         
+        	    	 </div>
+            	   </div>
+                </div>
+            </div>  
+            </div><!--End of second row-->
+            
+                   <div class="row">
+            <div class= "col-lg-4 col-sm-6"> 
+                <div class="flip-container">
+    	           <div class="flipper" onclick="this.classList.toggle('flipped')">
+    		         <div class="front">
+    			        <div class="thumbnail">
+                          <img src="egastic/colab_coldplay.jpg">
+                        </div> 
+    	           	 </div>
+    	             <div class="back">
+    			        <div class="thumbnail">
+                          <p>CSS Transitions, Transforms & Animations – Flipping Card ..</p>
+                        </div>         
+        	    	 </div>
+            	   </div>
+                </div>
+            </div>  
+            <div class= "col-lg-4 col-sm-6"> 
+                <div class="flip-container">
+    	           <div class="flipper" onclick="this.classList.toggle('flipped')">
+    		         <div class="front">
+    			        <div class="thumbnail">
+                          <img src="egastic/miles.jpg">
+                        </div> 
+    	           	 </div>
+    	             <div class="back">
+    			        <div class="thumbnail">
+                          <p>CSS Transitions, Transforms & Animations – Flipping Card ..</p>
+                        </div>         
+        	    	 </div>
+            	   </div>
+                </div>
+            </div>  
+            <div class= "col-lg-4 col-sm-6"> 
+                <div class="flip-container">
+    	           <div class="flipper" onclick="this.classList.toggle('flipped')">
+    		         <div class="front">
+    			        <div class="thumbnail">
+                          <img src="egastic/j-Mayer.jpg">
+                        </div> 
+    	           	 </div>
+    	             <div class="back">
+    			        <div class="thumbnail">
+                          <p>CSS Transitions, Transforms & Animations – Flipping Card ..</p>
+                        </div>         
+        	    	 </div>
+            	   </div>
+                </div>
+            </div>
+            </div><!--End of third row-->
+            
+            <div class="row">
+            <div class= "col-lg-4 col-sm-6"> 
+                <div class="flip-container">
+    	           <div class="flipper" onclick="this.classList.toggle('flipped')">
+    		         <div class="front">
+    			        <div class="thumbnail">
+                          <img src="egastic/monk.jpg">
+                        </div> 
+    	           	 </div>
+    	             <div class="back">
+    			        <div class="thumbnail">
+                          <p>CSS Transitions, Transforms & Animations – Flipping Card ..</p>
+                        </div>         
+        	    	 </div>
+            	   </div>
+                </div>
+            </div>  
+            <div class= "col-lg-4 col-sm-6"> 
+                <div class="flip-container">
+    	           <div class="flipper" onclick="this.classList.toggle('flipped')">
+    		         <div class="front">
+    			        <div class="thumbnail">
+                          <img src="egastic/U2.jpg">
+                        </div> 
+    	           	 </div>
+    	             <div class="back">
+    			        <div class="thumbnail">
+                          <p>CSS Transitions, Transforms & Animations – Flipping Card ..</p>
+                        </div>         
+        	    	 </div>
+            	   </div>
+                </div>
+            </div>  
+            <div class= "col-lg-4 col-sm-6"> 
+                <div class="flip-container">
+    	           <div class="flipper" onclick="this.classList.toggle('flipped')">
+    		         <div class="front">
+    			        <div class="thumbnail">
+                          <img src="egastic/Nirvana-Wallpaper.jpg">
+                        </div> 
+    	           	 </div>
+    	             <div class="back">
+    			        <div class="thumbnail">
+                          <p>CSS Transitions, Transforms & Animations – Flipping Card ..</p>
+                        </div>         
+        	    	 </div>
+            	   </div>
+                </div>
+            </div>  
+            </div><!--End of last row-->
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>  
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Sign Up</a></li>
-        <li><a href="#">Login</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-<div class="container">
-  <div class="jumbotron">
-     <div class="container text-center">
-    <h1><i class="fa fa-headphones fa-2x"></i> EargasmiC Tunes</h1>
-    <p>An inspirational collection of recordings spanning different genres.</p>
   </div>
-</div><!--End of Jumbotron-->
-
-  <div class="row">
-      <div class="col-lg-4 col-sm-6">
-        <div class= "show">
-          <div class="thumbnail">
-            <img src="egastic/fugees.jpeg">
-          </div> 
-        </div>
-      </div>
-      
-      <div class="col-lg-4 col-sm-6">
-        <div class= "show">
-          <div class="thumbnail">
-            <img src="egastic/damien-rice.jpg">
-          </div> 
-        </div>
-      </div>
-      
-      <div class="col-lg-4 col-sm-6">
-        <div class= "show">
-          <div class="thumbnail">
-            <img src="egastic/marvin.jpg">
-          </div> 
-        </div>
-      </div>
-      
-      <div class="col-lg-4 col-sm-6">
-        <div class= "show">
-          <div class="thumbnail">
-            <img src="egastic/cool-j.jpeg">
-          </div> 
-        </div>
-      </div>
-      
-      <div class="col-lg-4 col-sm-6">
-         <div class= "show">
-          <div class="thumbnail">
-           <img src="egastic/kanye.jpg">
-          </div>
-        </div> 
-      </div>
-      
-       <div class="col-lg-4 col-sm-6">
-         <div class= "show">
-          <div class="thumbnail">
-           <img src="egastic/bob.jpg">
-          </div>
-        </div> 
-      </div>
-      
-       <div class="col-lg-4 col-sm-6">
-        <div class="thumbnail">
-          <img src="egastic/colab_coldplay.jpg">
-        </div> 
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <div class="thumbnail">
-          <img src="egastic/monk.jpg">
-        </div> 
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <div class="thumbnail">
-          <img src="egastic/U2.jpg">
-        </div> 
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <div class="thumbnail">
-          <img src="egastic/Nirvana-Wallpaper.jpg">
-        </div> 
-      </div>
-       <div class="col-lg-4 col-sm-6">
-        <div class="thumbnail">
-          <img src="egastic/miles.jpg">
-        </div> 
-      </div>
-      <div class="col-lg-4 col-sm-6">
-        <div class="thumbnail">
-          <img src="egastic/j-Mayer.jpg">
-        </div> 
-      </div>
-     
-     
-    </div>
-</div>
-
+  
 <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
