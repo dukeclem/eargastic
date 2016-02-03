@@ -8,5 +8,5 @@ An inspirational collection of recordings spanning different genres.
 ### Clicking on the album exposes you to the history of that artist/group.
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/11927870/12798976/35e31968-ca81-11e5-87bb-b0e10ee37ae3.png" width="350"/>
-  <img src="egast2.png" width="350"/>
+  <img src="https://cloud.githubusercontent.com/assets/11927870/12798981/3968f120-ca81-11e5-91b7-230fb6961226.png" width="350"/>
 </p>
