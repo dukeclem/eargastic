@@ -21,11 +21,14 @@
 
 .navbar-inverse {
   background: transparent;
+  border: transparent;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  color: white;
+  color: #1abc9c;
+  font-size: 20px;
 }
+
 
 .navbar-inverse .navbar-brand {
   color: #e67e22;
@@ -108,4 +111,16 @@ position:absolute;
 .thumbnail {
   width: 340px;
   height: 340px;
+}
+
+#about {
+  background: red;
+  background-color: transparent;
+  border: 3px solid  #1abc9c;
+  border-radius: 12px;
+}
+
+.btn {
+   background-color: transparent;
+   color: #1abc9c;
 }
